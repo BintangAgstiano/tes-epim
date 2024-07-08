@@ -178,7 +178,7 @@
     height: 110%;
     rotate: 6deg;
     background-color: #24CAFF;
-    background-image: url(/assets/pesawat1.jpg);
+    background-image: url(./assets/pesawat1.jpg);
     background-size: cover;
 
 
@@ -189,7 +189,7 @@
     height: 120%;
     background-color: #28393f;
     rotate: 6deg;
-    background-image: url(/assets/pariwisatapatung.jpg);
+    background-image: url(./assets/pariwisatapatung.jpg);
     background-size: cover;
 
 
@@ -201,7 +201,7 @@
     background-color: #5d5e5f;
     rotate: 6deg;
     margin-right: -50px;
-    background-image: url(/assets/konserDj.jpg);
+    background-image: url(./assets/konserDj.jpg);
     background-size: cover;
 
 
