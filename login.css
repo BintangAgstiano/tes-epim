@@ -19,7 +19,8 @@
     max-width: 1520px;
     width: 100%;
     height: max-content;
-    min-height: 640px;
+    min-height: 680px;
+  height: 680px;
     position: relative;
     display: flex;
 }
@@ -32,7 +33,7 @@ height: 100vh;
 }
 .left{
     width: 60%;
-    height: 630px;
+    height: 100%;
     background-color: #171B1C;
     position: relative;
     display: flex;
@@ -41,7 +42,7 @@ height: 100vh;
 }
 .right{
     width: 40%;
-    height: 630px;
+    height:100%;
     background-color: white;
     position: relative;
     overflow: hidden;
@@ -158,4 +159,21 @@ button{
     position: relative;
     z-index: 50;
     text-decoration: none;
+}
+@media (max-width: 734px) {
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+        position: static;
+    padding:50px 20px 0 20px;
+
+    }
+    .container{
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+   
 }
