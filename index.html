@@ -9,50 +9,475 @@
 </head>
 
 <body>
-    <div class="container">
-        <section id="section1">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="assets/tiketinAjaBerwarna-removebg-preview.png" width="130">
-                </div>
-                <div class="navbar-content">
-                    <a href="">TIKET PESAWAT</a>
-                    <a href="">TIKET PARIWISATA</a>
-                    <a href="">TIKET KONSER</a>
-                    <a href=""><img src="assets/login.png" width="25"></a>
-                </div>
+    <section id="section1">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#home"><img src="assets/tiketinAjaBerwarna-removebg-preview.png" width="130"></a>
             </div>
-        </section>
-        <section id="section2">
-            <div class="content1">
-                <div class="left1">
-                    <div class="col-ajakan1">
-                        <div class="sosmed">
-                          <a href="">  <img src="assets/IN.png" width="43"> </a> 
+            <div class="navbar-content">
+                <a href="#tiket-pesawat">TIKET PESAWAT</a>
+                <a href="#tiket-pariwisata">TIKET PARIWISATA</a>
+                <a href="#tiket-konser">TIKET KONSER</a>
+                <a href="login.html"><img src="assets/login.png" width="25"></a>
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="container">
+            <div class="left1">
+                <div class="col-ajakan1">
+                    <div class="sosmed">
+                        <a href=""> <img src="assets/IN.png" width="43"> </a>
+                        <div></div>
+                        <a href=""> <img src="assets/twiter.png" width="50"> </a>
+                        <div></div>
+                        <a href=""> <img src="assets/facebook.png" width="40"> </a>
+                    </div>
+                    <div class="content-ajakan1">
+                        <div class="text">Yuk,<span> TIKETIN AJA! </span>Gampang, cepat, dan terpercaya. Nggak perlu
+                            ribet, langsung klik dan dapet tiketnya!</div>
+                        <div class="col-btn">
+                            <a href="#tiket-pesawat"><button>SELENGKAPNYA</button></a>
                             <div></div>
-                           <a href=""> <img src="assets/twiter.png" width="50"> </a> 
-                            <div></div>
-                           <a href=""> <img src="assets/facebook.png" width="40"> </a> 
-                        </div>
-                        <div class="content-ajakan1">
-                            <div class="text">Yuk,<span> TIKETIN AJA! </span>Gampang, cepat, dan terpercaya. Nggak perlu ribet, langsung klik dan dapet tiketnya!</div>
-                            <div class="col-btn">
-                                <button>SELENGKAPNYA</button>
-                                <div></div>
-                            </div>
                         </div>
                     </div>
-                    <img class="global" src="assets/global-network.svg" >
                 </div>
-                <div class="right1">
-                    <div class="img1"></div>
-                    <div class="img2"></div>
-                    <div class="img3"></div>
-                    <div class="opacity"></div>
+                <img class="global" src="assets/global-network.svg">
+            </div>
+            <div class="right1">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="opacity"></div>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="container3">
+            <img src="assets/tiketinAjaGray.png" width="160">
+            <img src="assets/tiketinAjaGray.png" width="160">
+            <img src="assets/tiketinAjaGray.png" width="160">
+            <img src="assets/tiketinAjaGray.png" width="160">
+            <img src="assets/tiketinAjaGray.png" width="160">
+        </div>
+    </section>
+    <div id="tiket-pesawat"></div>
+    <section id="section4">
+        <div class="content4">
+            <img class="world-map" src="assets/World_map_mosaic_of_black_vertical-removebg-preview.png">
+            <div class="col-ajakan2">
+                <div class="logo-bandara">
+                    <img src="assets/circle-pesawat.png" width="55">
+                </div>
+                <div class="col-text4">
+                    <div class="text4">TIKETIN AJA, pilihan tepat untuk tiket pesawat!</div>
+                    <div class="col-btn4">
+                        <a href="#jelajahi-tiket-pesawat"> <button><span>JELAJAHI TIKET</span>
+                                <div></div>
+                            </button>
+                        </a>
+                     <a href="#jelajahi-tiket-pesawat">  <div class="box-arrow-down">
+                            <img src="assets/arrow-down.png" width="15">
+                        </div>
+                    </a> 
+                    </div>
                 </div>
             </div>
-        </section>
-    </div>
+            <img class="pesawat2" src="assets/pesawat2.png" alt="">
+            
+            <div id="jelajahi-tiket-pesawat"></div>
+            <div class="parent-search">
+                <!-- <img src="assets/tessssssssssssss.png" alt=""> -->
+                <div class="box-filter1">
+                    <div class="lokasi-anda">LOKASI ANDA</div>
+                    <select name="" id="">
+                        <option value="" selected>Pilih Lokasi</option>
+                        <option value="">INDONESIA</option>
+
+                    </select>
+                </div>
+                <div class="box-filter1">
+                    <div class="lokasi-anda">LOKASI ANDA</div>
+                    <select name="" id="">
+                        <option value="" selected>Pilih Lokasi</option>
+                        <option value="">LOS ANGELES</option>
+
+                    </select>
+                </div>
+                <div class="box-filter1">
+                    <div class="lokasi-anda">TANGGAL</div>
+                    <input type="date">
+                </div>
+                <div class="box-search">
+                    <img src="assets/search.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div class="content5">
+            <div class="flex-card">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="negara1">INDONESIA</div>
+                        <img src="assets/pesawatTujuan2.png" width="30">
+                        <div class="negara2">LOS ANGELES</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="left-body">
+                            <div class="pilot2">PILOT 2</div>
+                            <div class="nama-pilot">BINTANG AGUSTIANO EFFENDY</div>
+                        </div>
+                        <div class="right-body">
+                            <div class="pilot1">PILOT2</div>
+                            <div class="nama-pilot2">WILLY SALIM</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="box-pesawat">
+                            <div class="date">TANGGAL</div>
+                            <div class="date-input">10/07/2024</div>
+                        </div>
+                        <div class="box-pesawat">
+                            <div class="harga">HARGA</div>
+                            <div class="harga-input">RP 12.000.000</div>
+                        </div>
+                        <div class="box-pesawat">
+                            <div class="no-kursi">NO KURSI</div>
+                            <div class="no-kursi-input">50</div>
+                        </div>
+                    </div>
+                    <div class="col-btn-tiket-pesawat-harga">
+                        <button>BELI TIKET SEKARANG</button>
+                        <div class="harga-footer">RP 12.000.000</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="negara1">INDONESIA</div>
+                        <img src="assets/pesawatTujuan2.png" width="30">
+                        <div class="negara2">LOS ANGELES</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="left-body">
+                            <div class="pilot2">PILOT 2</div>
+                            <div class="nama-pilot">BINTANG AGUSTIANO EFFENDY</div>
+                        </div>
+                        <div class="right-body">
+                            <div class="pilot1">PILOT2</div>
+                            <div class="nama-pilot2">WILLY SALIM</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="box-pesawat">
+                            <div class="date">TANGGAL</div>
+                            <div class="date-input">10/07/2024</div>
+                        </div>
+                        <div class="box-pesawat">
+                            <div class="harga">HARGA</div>
+                            <div class="harga-input">RP 12.000.000</div>
+                        </div>
+                        <div class="box-pesawat">
+                            <div class="no-kursi">NO KURSI</div>
+                            <div class="no-kursi-input">50</div>
+                        </div>
+                    </div>
+                    <div class="col-btn-tiket-pesawat-harga">
+                        <button>BELI TIKET SEKARANG</button>
+                        <div class="harga-footer">RP 12.000.000</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="negara1">INDONESIA</div>
+                        <img src="assets/pesawatTujuan2.png" width="30">
+                        <div class="negara2">LOS ANGELES</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="left-body">
+                            <div class="pilot2">PILOT 2</div>
+                            <div class="nama-pilot">BINTANG AGUSTIANO EFFENDY</div>
+                        </div>
+                        <div class="right-body">
+                            <div class="pilot1">PILOT2</div>
+                            <div class="nama-pilot2">WILLY SALIM</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="box-pesawat">
+                            <div class="date">TANGGAL</div>
+                            <div class="date-input">10/07/2024</div>
+                        </div>
+                        <div class="box-pesawat">
+                            <div class="harga">HARGA</div>
+                            <div class="harga-input">RP 12.000.000</div>
+                        </div>
+                        <div class="box-pesawat">
+                            <div class="no-kursi">NO KURSI</div>
+                            <div class="no-kursi-input">50</div>
+                        </div>
+                    </div>
+                    <div class="col-btn-tiket-pesawat-harga">
+                        <button>BELI TIKET SEKARANG</button>
+                        <div class="harga-footer">RP 12.000.000</div>
+                    </div>
+                </div>
+            </div>
+            <img class="world-map-tiket" src="assets/World_map_mosaic_of_black_vertical-removebg-preview.png" alt="">
+            <img class="world-map-tiket2" src="assets/World_map_mosaic_of_black_vertical-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <section id="section6">
+         <div class="content6">
+            <img class="left-decortion" src="assets/tumbuhan.png">
+            <div class="col-text6">
+                <div class="text-medium6">Ayo liburan! Beli tiket sekarang!</div>
+                <div class="text-bold6">TIKETIN AJA</div>
+            </div>
+            <img class="map-decoration" src="assets/pesawatGPS2.png" alt="">
+            <img class="right-decoration"
+                src="assets/Premium_PSD___Suitcase_with_airplane__traveler_accessories_rendering-removebg-preview.png"
+                alt="">
+        </div>
+    </section>
+    <div id="tiket-pariwisata"></div>
+
+    <section id="section7">
+        <div class="content7">
+            <div class="col-title7">
+                <div class="title7">TIKET PARIWISATA</div>
+                <div class="sub-title7">AYO, <span> BELI TIKET</span> SEKARANG DAN NIKMATI LIBURAN</div>
+            </div>
+            <div class="col-card7">
+                <div class="card7-pariwisata">
+                    <div class="card7-header1">
+                        <div class="trending">
+                            <img src="assets/trending.png" width="15">
+                        </div>
+                    </div>
+                    <div class="card7-body">
+                        <div class="rate">
+                            <img src="assets/rate.png" width="80">
+                            <span>(4.9)</span>
+                        </div>
+                        <div class="lokasi">Kota Probolinggo, Indonesia</div>
+                        <div class="nama-wisata">Gunung Bromo Jawa Timur</div>
+                        <div class="desc">Gunung Bromo di Jawa Timur adalah gunung berapi aktif dengan pemandangan
+                            matahari terbit yang indah dan lautan pasir yang luas</div>
+
+                    </div>
+                    <div class="card7-footer">
+                        <button class="btn7">BELI TIKET</button>
+                        <div class="harga7">RP 12.000.000</div>
+                    </div>
+                </div>
+                <div class="card7-pariwisata">
+                    <div class="card7-header2">
+                        <div class="trending">
+                            <img src="assets/trending.png" width="15">
+                        </div>
+                    </div>
+                    <div class="card7-body">
+                        <div class="rate">
+                            <img src="assets/rate.png" width="80">
+                            <span>(4.9)</span>
+                        </div>
+                        <div class="lokasi">Kota Probolinggo, Indonesia</div>
+                        <div class="nama-wisata">Gunung Bromo Jawa Timur</div>
+                        <div class="desc">Gunung Bromo di Jawa Timur adalah gunung berapi aktif dengan pemandangan
+                            matahari terbit yang indah dan lautan pasir yang luas</div>
+
+                    </div>
+                    <div class="card7-footer">
+                        <button class="btn7">BELI TIKET</button>
+                        <div class="harga7">RP 12.000.000</div>
+                    </div>
+                </div>
+                <div class="card7-pariwisata">
+                    <div class="card7-header3">
+                        <div class="trending">
+                            <img src="assets/trending.png" width="15">
+                        </div>
+                    </div>
+                    <div class="card7-body">
+                        <div class="rate">
+                            <img src="assets/rate.png" width="80">
+                            <span>(4.9)</span>
+                        </div>
+                        <div class="lokasi">Kota Probolinggo, Indonesia</div>
+                        <div class="nama-wisata">Gunung Bromo Jawa Timur</div>
+                        <div class="desc">Gunung Bromo di Jawa Timur adalah gunung berapi aktif dengan pemandangan
+                            matahari terbit yang indah dan lautan pasir yang luas</div>
+
+                    </div>
+                    <div class="card7-footer">
+                        <button class="btn7">BELI TIKET</button>
+                        <div class="harga7">RP 12.000.000</div>
+                    </div>
+                </div>
+                <div class="card7-pariwisata">
+                    <div class="card7-header4">
+                        <div class="trending">
+                            <img src="assets/trending.png" width="15">
+                        </div>
+                    </div>
+                    <div class="card7-body">
+                        <div class="rate">
+                            <img src="assets/rate.png" width="80">
+                            <span>(4.9)</span>
+                        </div>
+                        <div class="lokasi">Kota Probolinggo, Indonesia</div>
+                        <div class="nama-wisata">Gunung Bromo Jawa Timur</div>
+                        <div class="desc">Gunung Bromo di Jawa Timur adalah gunung berapi aktif dengan pemandangan
+                            matahari terbit yang indah dan lautan pasir yang luas</div>
+
+                    </div>
+                    <div class="card7-footer">
+                        <button class="btn7">BELI TIKET</button>
+                        <div class="harga7">RP 12.000.000</div>
+                    </div>
+                </div>
+
+            </div>
+            <img class="bg-hutan"
+                src="assets/Download_premium_vector_of_Pine_forest_silhouette_clipart__nature_background_vector_about_forest_silhouette_vector__pine_forest_silhouette__forest_silhouette__pine_forest__and_vector_forest_black_and_.png"
+                alt="">
+        </div>
+    </section>
+    <div id="tiket-konser"></div>
+
+    <section id="section8">
+        <div class="content8">
+            <div class="petualangan-musik">Petualangan <span>Musik</span> yang Luar Biasa Menantimu di Konser Dunia!
+            </div>
+            <div class="sub-title-musik">AYO BELI TIKET DI TIKETIN AJA</div>
+            <div class="col-btn-musik">
+              <a href="#jelajahi-tiket-konser"><div class="circle-arrow"><img src="assets/arrow-down.png" width="20"></div></a>  
+             <a href="#jelajahi-tiket-konser"> <button class="btn-musik"><span>KUNJUNGI TIKET</span>
+                    <div></div>
+                </button>
+            </a>
+            </div>
+            <div class="col-footer-musik">
+                <div></div>
+                <span>TIKETIN AJA</span>
+            </div>
+            <img class="konser-gray" src="assets/konserGray.png" alt="">
+        </div>
+        <div id="jelajahi-tiket-konser"></div>
+    </section>
+    <section id="section9">
+        <div class="content9">
+            <div class="col-header-tiketkonser">
+                <div class="title-tiket-konser">TIKET KONSER UNTUK ANDA</div>
+                <div class="sub-title-tiket-konser">Siapkan tiket mu untuk petualangan musik yang penuh kegembiraan
+                </div>
+            </div>
+            <div class="col-tiket-konser">
+                <div class="card-konser">
+                    <div class="bg-card-konser1">
+                        <div class="title-nama-konser">TAYLOR SWIFT</div>
+                        <div class="category">MUSIK KONSER</div>
+                        <div class="tanggal-acara"><span>17 AGUSTUS</span> || <span>20:00 WIB</span></div>
+                        <div class="col-lokasi-tiket">
+                            <div class="logo-lokasi">
+                                <img src="assets/location-sign-svgrepo-com.svg" width="18">
+                            </div>
+                            <div class="lokasi-konser">BANDUNG,INDONESIA</div>
+                        </div>
+                        <div class="col-btn-tiket-konser">
+                            <button>BELI TIKET</button>
+                            <div class="harga-tiket-konser">RP 300.000</div>
+                        </div>
+                    </div>
+                    <div class="people-konser1"></div>
+                </div>
+                <div class="card-konser">
+                    <div class="bg-card-konser2">
+                        <div class="title-nama-konser">BRUNO MARS</div>
+                        <div class="category">MUSIK KONSER</div>
+                        <div class="tanggal-acara"><span>27 AGUSTUS</span> || <span>20:00 WIB</span></div>
+                        <div class="col-lokasi-tiket">
+                            <div class="logo-lokasi">
+                                <img src="assets/location-sign-svgrepo-com.svg" width="18">
+                            </div>
+                            <div class="lokasi-konser">JEMBER,INDONESIA</div>
+                        </div>
+                        <div class="col-btn-tiket-konser">
+                            <button>BELI TIKET</button>
+                            <div class="harga-tiket-konser">RP 400.000</div>
+                        </div>
+                    </div>
+                    <div class="people-konser2"></div>
+                </div>
+                <div class="card-konser">
+                    <div class="bg-card-konser3">
+                        <div class="title-nama-konser">COLDPLAY</div>
+                        <div class="category">MUSIK KONSER</div>
+                        <div class="tanggal-acara"><span>11 AGUSTUS</span> || <span>20:00 WIB</span></div>
+                        <div class="col-lokasi-tiket">
+                            <div class="logo-lokasi">
+                                <img src="assets/location-sign-svgrepo-com.svg" width="18">
+                            </div>
+                            <div class="lokasi-konser">JAKARTA,INDONESIA</div>
+                        </div>
+                        <div class="col-btn-tiket-konser">
+                            <button>BELI TIKET</button>
+                            <div class="harga-tiket-konser">RP 600.000</div>
+                        </div>
+                    </div>
+                    <div class="people-konser3"></div>
+                </div>
+                <div class="card-konser">
+                    <div class="bg-card-konser4">
+                        <div class="title-nama-konser">SHAWN MENDES</div>
+                        <div class="category">MUSIK KONSER</div>
+                        <div class="tanggal-acara"><span>17 DESEMBER</span> || <span>20:00 WIB</span></div>
+                        <div class="col-lokasi-tiket">
+                            <div class="logo-lokasi">
+                                <img src="assets/location-sign-svgrepo-com.svg" width="18">
+                            </div>
+                            <div class="lokasi-konser">BANDUNG,INDONESIA</div>
+                        </div>
+                        <div class="col-btn-tiket-konser">
+                            <button>BELI TIKET</button>
+                            <div class="harga-tiket-konser">RP 200.000</div>
+                        </div>
+                    </div>
+                    <div class="people-konser4"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="content-footer">
+            <div class="left-footer">
+               <a href="#home"> <img src="assets/tiketinAjaBerwarna-removebg-preview.png" width="380"></a>
+            </div>
+            <div class="right-footer">
+                <div class="navbar-footer">
+                    <a href="#tiket-pesawat">TIKET PESAWAT</a>
+                    <a href="#tiket-pariwisata">TIKET PARIWISATA</a>
+                    <a href="#tiket-konser">TIKET KONSER</a>
+                </div>
+                <div class="copyright">COPYRIGHT 2024 TIKETIN AJA</div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    scrollbar-width: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #171B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    max-width: 1520px;
+    width: 100%;
+    height: max-content;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+}
+.bg-white{
+position: absolute;
+background-color: white;
+width: 40%;
+right: 0;
+height: 100vh;
+}
+.left{
+    width: 60%;
+    height: 630px;
+    background-color: #171B1C;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px 0 55px;
+}
+.right{
+    width: 40%;
+    height: 630px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    padding:50px 50px 0 50px;
+}
+.patung-login{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: .1;
+}
+.desc-login{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ajakan-login{
+    font-size: 48px;
+    color: white;
+    font-weight: 550;
+}
+.ajakan-login span{
+    color:#24CAFF ;
+}
+.right .pesawat{
+    position: absolute;
+    bottom: -180px;
+    opacity: .4;
+    left: -10px;
+}
+.title-login{
+    font-size: 1.8rem;
+    font-weight: 550;
+    opacity: .9;
+
+}
+.sub-title-login{
+    font-size: 1.2rem;
+}
+.sub-title-login span{
+    color: #02779e;
+    font-weight: 550;
+}
+form{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input[type="text"]{
+    padding: 8px 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 3px;
+}
+input[type="password"]{
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width: 90%;
+}
+label{
+    margin-top: 20px;
+margin-bottom: 5px;
+}
+.col-input-password{
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: flex;
+}
+.eye{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.line{
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    background-color:#171B1C;
+    rotate: 45deg;
+    display: none;
+}
+.line.open{
+    display: flex;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: #02779e;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-top: 35px;
+    border-radius: 3px;
+}
+.ajakan-daftar{
+    font-size: .8rem;
+    margin-top: 20px;
+}
+.ajakan-daftar span{
+    color: #02779e;
+}
+.ajakan-daftar  a{
+    position: relative;
+    z-index: 50;
+    text-decoration: none;
+}
